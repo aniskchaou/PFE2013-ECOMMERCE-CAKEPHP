@@ -1,0 +1,1 @@
+<?phpclass AchatsController extends AppController{}?>

@@ -1,0 +1,1 @@
+<table width="600"><tr bgcolor="orange" ><td>nom</td><td>produit</td><td>quantite</td><td>date </td></tr><?php foreach($historique as $h){echo "<tr><td>".$h['Historique']['nom']."</td>";echo "<td>".$h['Historique']['produit']."</td>";echo "<td>".$h['Historique']['qte']."</td>";echo "<td>".$h['Historique']['date']."</td></tr>";}?></table>

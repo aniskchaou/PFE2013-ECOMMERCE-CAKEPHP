@@ -1,0 +1,1 @@
+<?phpclass UtilisateursController extends AppController{function admin_affiche(){$user=$this->Utilisateur->find('all');$this->set('user',$user);}function admin_delete($id){//$this->Page->delete($id);$this->Session->setFlash("utilisateur est supprimé ","notif");$this->redirect($this->referer());}}?>

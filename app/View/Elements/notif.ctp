@@ -1,0 +1,1 @@
+<span align="center" style="width:930px; " class="label label-success"><a class="close"  href="#" style="margin-bottom:20px;" onclick="$(this).parent().slideUp()" >x</a><p style="margin:10px ;"><?php echo $message ;?></p><script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script></span>
