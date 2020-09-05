@@ -60,10 +60,10 @@ class DATABASE_CONFIG {
 	public $default = array(
 		'datasource' => 'Database/Postgres',
 		'persistent' => false,
-		'host' => 'postgres',
-		'login' => 'root',
-		'password' => '',
-		'database' => 'cakephp',
+		'host' => 'ec2-52-202-66-191.compute-1.amazonaws.com',
+		'login' => 'suowchyzewdhdz',
+		'password' => 'b653b307a9c38792e689e9d421521ef9ecd959fd8022e4d96df89311473109df',
+		'database' => 'd6drv9vfdb3bl7',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
