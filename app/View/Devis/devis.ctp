@@ -1,11 +1,11 @@
 <?php echo $this->Form->create('Devi'); 
 $s=0;
-echo $this->Form->input('email',array('label'=>'email'));
-echo $this->Form->input('nom',array('label'=>'nom'));
+echo $this->Form->input('email',array('label'=>'Email :'));
+echo $this->Form->input('nom',array('label'=>'Nom :'));
 echo $this->Form->input('accepte',array('value'=>'false','type'=>'hidden'));
 echo "message"."<br>";
-echo $this->Form->textarea('produit',array('label'=>'message'));
-echo $this->Form->submit('demander devis');
+echo $this->Form->textarea('produit',array('label'=>'Message :'));
+echo $this->Form->submit('Demander devis');
 
      ?>
 <!--

@@ -418,7 +418,7 @@ z-index:2000;
                                    <link rel="shortcut icon" href="../assets/ico/favicon.png">
   </head>
 
-  <body style="background-image:url('img/c .jpg');">
+  <body style="background-image:url('<?php echo $this->Html->url('/img/c .jpg');?>');">
 
 <div  style="position:absolute;color:orange; left:160px ; opacity:0.95; border-radius:0.5px; margin:10px;  width:362px; ">
 
@@ -430,7 +430,12 @@ z-index:2000;
 
 </div>
 <div style="position:relative;left:730px;width:20px; top:25px;">
-<div style="cursor:pointer;width:98px;height:65px;position:relative;left:265px;top:-20px;border-radius:2px;background:orange;border:White 3px solid;"height="45" width="45"  ><span style="margin:15px"><?php echo $this->Html->link(' ',array('controller'=>'panier','action'=>'voir'),array('class'=>'icon-shopping-cart'));     ?></span><br><i align="center"style="font-size:13px;color:white;">Mon Panier( <?php echo $this->element('panier');      ?> )</i></div>
+<div style="cursor:pointer;width:98px;height:65px;position:relative;left:265px;top:-20px;border-radius:2px;background:orange;border:White 3px solid;"height="45" width="45"  ><span style="margin:15px"></span><br><i align="center"style="font-size:13px;color:white;">
+  
+  <?php echo $this->Html->link('Mon Panier ',array('controller'=>'panier','action'=>'voir'));     ?>
+
+
+  ( <?php echo $this->element('panier');      ?> )</i></div>
 </div>
 
 
@@ -577,7 +582,7 @@ $.ajax({
 	
 	
 
-    <div style="height:900px; margin-bottom:0px;">
+    <div style=" background:white; opacity:0.9; margin-bottom:0px;">
 	
 	
 	<?php echo $this->Session->flash();  ?>
@@ -588,8 +593,9 @@ $.ajax({
 
 	
     </div>  
+    <br><br>
       <!-- FOOTER -->
-      <div style=" position:relative;top:250px;background-image:-webkit-linear-gradient(top, #222222, #111111);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#222222), to(#111111)); min-width:100%;background-repeat:repeat-x; width:940px;height:80px">
+      <div style="background-image:-webkit-linear-gradient(top, #222222, #111111);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#222222), to(#111111)); min-width:100%;background-repeat:repeat-x; width:940px;height:80px">
         <p align="middle">Anis KCHAOU - Projet de fin d'études 2013  &middot; </p>
         <p align="middle"> <a href="https://github.com/aniskchaou/PFE2013-ECOMMERCE-CAKEPHP">https://github.com/aniskchaou/PFE2013-ECOMMERCE-CAKEPHP</a></p>
 	  

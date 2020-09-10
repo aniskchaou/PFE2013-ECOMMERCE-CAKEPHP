@@ -28,10 +28,10 @@
 					<h3><?php echo $l['Produit']['nom']; ?></h3>
 					<h4 style="text-decoration:line-through"><?php echo $l['Produit']['prix']; ?> $</h4>
 					<h4 style="font-size:20px"><span style="background:red;color:white; border-radius:9px;"><?php echo $l['Produit']['nprix']; ?>$</span></h4>
-					<p><b style="color:blue;">catre graphique</b> <?php echo $l['Produit']['cartegraphique']?> <br>
-<b  style="color:blue;">memoire</b><?php echo $l['Produit']['memoire']?> GO<br>
-<b style="color:blue;">proccesseur</b><?php echo $l['Produit']['processeur']?> <br>
-<b style="color:blue;">ecran</b> <?php echo $l['Produit']['ecran']?> ""<br></p>
+					<p><b style="color:blue;">Catre graphique</b> <?php echo $l['Produit']['cartegraphique']?> <br>
+<b  style="color:blue;">Memoire : </b><?php echo $l['Produit']['memoire']?> GO<br>
+<b style="color:blue;">Proccesseur : </b><?php echo $l['Produit']['processeur']?> <br>
+<b style="color:blue;">Ecran : </b> <?php echo $l['Produit']['ecran']?> ""<br></p>
 				</div>
 				<div class="clear"></div>
 			
