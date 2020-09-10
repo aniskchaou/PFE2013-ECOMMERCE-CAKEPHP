@@ -61,11 +61,6 @@
 <span style="position:relative;left:300px;">
 
 
-
-<input  style="position:relative;top:5px;" class="autosuggest" type="text" width="10"/>
-<input type="submit" class="btn btn-success" value="recherche"/> 
-   
-
 <div class="dropdown"><ul class="result"></ul>
 </div>
 
@@ -95,7 +90,7 @@ echo "<tr>";
 
 <td class="case" style="margin:20px; width:220px; height:200px;   6px;-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); background:white; opacity:0.88;" >
 
- <div style="position:relative;top:-10px; "><b style="color:green;font-size:17px" ><?php echo $this->Html->link($v['Produit']['nom']." "  ,array('action'=>'show',$v['Produit']['id']));?></b></div>
+ <div style="position:relative;top:-10px; "><b style="color:green;font-size:17px" ><?php echo $v['Produit']['nom'];?></b></div>
  <div  class="image" style="position:relative; height:100px; ">
 <?php  //request action appeler action depuis une vue
 

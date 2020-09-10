@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title><?php echo $title_for_layout;    ?></title>
+    <title><?php echo "PFE 2013";    ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -424,7 +424,7 @@ z-index:2000;
 
 <b style="color:orange; a:hover{color:orange;}"><?php echo $this->Html->link('Acceuil ',array('controller'=>'/')); ?></b>
 
-<b style="color:orange;"><?php echo $this->Html->link('devis ',array('controller'=>'devis','action'=>'devis')); ?></b>
+<b style="color:orange;"><?php echo $this->Html->link('Devis ',array('controller'=>'devis','action'=>'devis')); ?></b>
 <b style="color:orange;"><?php echo $this->Html->link('Mon compte ',array('controller'=>'panier','action'=>'login')); ?></b>
 <b style="color:orange;"><?php echo $this->Html->link('Contact ',array('controller'=>'pages','action'=>'contact')); ?> </b>
 

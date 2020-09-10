@@ -142,13 +142,13 @@ z-index: 10;
 
 </style>
    <ul class="menu">
-   <li ><a href="/pfe2013/">Acceuil <?php ?></a> </li>
+   <li ><?php echo $this->Html->link('Acceuil ',array('controller'=>'/')); ?> </li>
 <?php
 foreach ($pages as $k=>$v)
 {
 ?>
 
-<li ><?php echo $this->Html->link($v['Page']['name']." "  ,array('action'=>'show',$v['Page']['id'])); 
+<li ><?php echo $this->Html->link($v['Page']['name']." "  ,array('controller'=>'/')); 
 
 
 ?>
