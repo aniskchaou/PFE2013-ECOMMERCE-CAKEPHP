@@ -590,9 +590,10 @@ $.ajax({
     </div>  
       <!-- FOOTER -->
       <div style=" position:relative;top:250px;background-image:-webkit-linear-gradient(top, #222222, #111111);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#222222), to(#111111)); min-width:100%;background-repeat:repeat-x; width:940px;height:80px">
-        <p align="middle">&copy; 2013 Company, Inc. &middot; </p>
-	   <a style="margin:10px;" align="right" class="btn btn-info" href="#">Back to top</a>
-       
+        <p align="middle">Anis KCHAOU - Projet de fin d'études 2013  &middot; </p>
+        <p align="middle"> <a href="https://github.com/aniskchaou/PFE2013-ECOMMERCE-CAKEPHP">https://github.com/aniskchaou/PFE2013-ECOMMERCE-CAKEPHP</a></p>
+	  
+       <br>
       </div>
 <!-- /.container -->
 
